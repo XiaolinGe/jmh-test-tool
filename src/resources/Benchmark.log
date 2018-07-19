@@ -1,0 +1,162 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_162, Java HotSpot(TM) 64-Bit Server VM, 25.162-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55175:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 0.00% complete, ETA 00:08:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 14558.861 ops/ms
+# Warmup Iteration   2: 18665.435 ops/ms
+# Warmup Iteration   3: 20939.172 ops/ms
+Iteration   1: 20627.809 ops/ms
+Iteration   2: 16778.254 ops/ms
+Iteration   3: 19979.745 ops/ms
+Iteration   4: 19812.985 ops/ms
+Iteration   5: 21296.554 ops/ms
+Iteration   6: 21270.555 ops/ms
+Iteration   7: 21499.050 ops/ms
+Iteration   8: 20217.859 ops/ms
+Iteration   9: 21074.438 ops/ms
+Iteration  10: 21731.046 ops/ms
+
+# Run progress: 16.67% complete, ETA 00:06:48
+# Fork: 2 of 2
+# Warmup Iteration   1: 21298.966 ops/ms
+# Warmup Iteration   2: 22152.276 ops/ms
+# Warmup Iteration   3: 19991.397 ops/ms
+Iteration   1: 19432.942 ops/ms
+Iteration   2: 20051.713 ops/ms
+Iteration   3: 17886.393 ops/ms
+Iteration   4: 19246.932 ops/ms
+Iteration   5: 17899.051 ops/ms
+Iteration   6: 21318.102 ops/ms
+Iteration   7: 21670.303 ops/ms
+Iteration   8: 21621.796 ops/ms
+Iteration   9: 21692.684 ops/ms
+Iteration  10: 21730.229 ops/ms
+
+
+Result "org.sample.StringBuilderBenchmark.testStringAdd":
+  20341.922 ±(99.9%) 1275.610 ops/ms [Average]
+  (min, avg, max) = (16778.254, 20341.922, 21731.046), stdev = 1468.994
+  CI (99.9%): [19066.312, 21617.532] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_162, Java HotSpot(TM) 64-Bit Server VM, 25.162-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55175:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.StringBuilderBenchmark.testStringBufferAdd
+
+# Run progress: 33.33% complete, ETA 00:05:25
+# Fork: 1 of 2
+# Warmup Iteration   1: 100212.197 ops/ms
+# Warmup Iteration   2: 52104.420 ops/ms
+# Warmup Iteration   3: 38278.192 ops/ms
+Iteration   1: 38447.100 ops/ms
+Iteration   2: 38718.912 ops/ms
+Iteration   3: 38806.347 ops/ms
+Iteration   4: 38850.969 ops/ms
+Iteration   5: 38915.211 ops/ms
+Iteration   6: 38887.806 ops/ms
+Iteration   7: 38930.159 ops/ms
+Iteration   8: 38979.852 ops/ms
+Iteration   9: 38782.330 ops/ms
+Iteration  10: 38842.105 ops/ms
+
+# Run progress: 50.00% complete, ETA 00:04:03
+# Fork: 2 of 2
+# Warmup Iteration   1: 101791.753 ops/ms
+# Warmup Iteration   2: 50258.759 ops/ms
+# Warmup Iteration   3: 39012.541 ops/ms
+Iteration   1: 38885.751 ops/ms
+Iteration   2: 38896.376 ops/ms
+Iteration   3: 38851.214 ops/ms
+Iteration   4: 38914.347 ops/ms
+Iteration   5: 38906.050 ops/ms
+Iteration   6: 38675.327 ops/ms
+Iteration   7: 38307.330 ops/ms
+Iteration   8: 38320.998 ops/ms
+Iteration   9: 38769.476 ops/ms
+Iteration  10: 38227.446 ops/ms
+
+
+Result "org.sample.StringBuilderBenchmark.testStringBufferAdd":
+  38745.755 ±(99.9%) 199.941 ops/ms [Average]
+  (min, avg, max) = (38227.446, 38745.755, 38979.852), stdev = 230.252
+  CI (99.9%): [38545.814, 38945.696] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_162, Java HotSpot(TM) 64-Bit Server VM, 25.162-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55175:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 66.67% complete, ETA 00:02:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 101387.880 ops/ms
+# Warmup Iteration   2: 73338.497 ops/ms
+# Warmup Iteration   3: 48354.794 ops/ms
+Iteration   1: 48970.339 ops/ms
+Iteration   2: 48471.832 ops/ms
+Iteration   3: 48831.548 ops/ms
+Iteration   4: 48360.099 ops/ms
+Iteration   5: 48834.293 ops/ms
+Iteration   6: 47731.594 ops/ms
+Iteration   7: 47342.796 ops/ms
+Iteration   8: 48185.010 ops/ms
+Iteration   9: 48470.058 ops/ms
+Iteration  10: 47519.620 ops/ms
+
+# Run progress: 83.33% complete, ETA 00:01:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 99179.803 ops/ms
+# Warmup Iteration   2: 70844.997 ops/ms
+# Warmup Iteration   3: 48099.688 ops/ms
+Iteration   1: 48244.591 ops/ms
+Iteration   2: 48760.601 ops/ms
+Iteration   3: 48239.853 ops/ms
+Iteration   4: 48143.187 ops/ms
+Iteration   5: 48263.270 ops/ms
+Iteration   6: 48348.786 ops/ms
+Iteration   7: 48245.953 ops/ms
+Iteration   8: 48171.901 ops/ms
+Iteration   9: 48044.262 ops/ms
+Iteration  10: 48473.175 ops/ms
+
+
+Result "org.sample.StringBuilderBenchmark.testStringBuilderAdd":
+  48282.639 ±(99.9%) 361.717 ops/ms [Average]
+  (min, avg, max) = (47342.796, 48282.639, 48970.339), stdev = 416.554
+  CI (99.9%): [47920.922, 48644.355] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                     Mode  Cnt      Score      Error   Units
+StringBuilderBenchmark.testStringAdd         thrpt   20  20341.922 ± 1275.610  ops/ms
+StringBuilderBenchmark.testStringBufferAdd   thrpt   20  38745.755 ±  199.941  ops/ms
+StringBuilderBenchmark.testStringBuilderAdd  thrpt   20  48282.639 ±  361.717  ops/ms
